@@ -1,1 +1,1 @@
-# requirements.txt
+lxml==4.6.0
