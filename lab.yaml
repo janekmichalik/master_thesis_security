@@ -3,11 +3,15 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: lab1
+  labels:
+    project: lab
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
   name: lab2
+  labels:
+    project: lab
 ---
 apiVersion: v1
 kind: Pod
