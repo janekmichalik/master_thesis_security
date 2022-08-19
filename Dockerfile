@@ -2,6 +2,8 @@ FROM golang:1.7.3
 
 ARG EDIT_DATE=""
 
+ENV STUDENT_PASSWORD=leaked_password
+
 LABEL maintainer=""
 LABEL maintainer_email_address=""
 LABEL modification_date=$EDIT_DATE
