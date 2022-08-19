@@ -1,5 +1,11 @@
 FROM golang:1.7.3
 
+ARG EDIT_DATE=""
+
+LABEL maintainer=""
+LABEL maintainer_email_address=""
+LABEL modification_date=$EDIT_DATE
+
 WORKDIR /student
 
 RUN go get -d -v golang.org/x/net/html
